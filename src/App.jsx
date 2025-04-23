@@ -12,6 +12,18 @@ function App() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-6xl font-extrabold tracking-tight">Iftach Naftaly</h1>
+          <motion.div
+            className="text-center max-w-3xl mx-auto"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            <p className="text-lg text-zinc-300">
+              I'm a robotics software engineer with an MSc from Technion specializing in guidance, navigation, and control.
+              I build autonomous systems using ROS 2, PX4, and cloud DevOps, with a focus on visual SLAM and vision-based navigation.
+              My work spans simulation infrastructure, real-time sensor fusion, AI dataset generation with Blender, and drone deployment.
+            </p>
+          </motion.div>
           <p className="mt-4 text-2xl text-zinc-300">
             MSc Robotics Engineer · PX4 / ROS 2 / Cloud DevOps · Vision-Based Navigation
           </p>
