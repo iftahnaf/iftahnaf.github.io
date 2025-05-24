@@ -1,3 +1,11 @@
+# PX4 SITL on AWS
+
+[PX4 Cloud Simulations on AWS](https://github.com/iftahnaf/px4_sitl_on_aws)
+
+![PX4 Cloud Sim GIF](https://github.com/iftahnaf/px4_sitl_on_aws/raw/main/docs/px4_sitl_on_aws.gif)
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
