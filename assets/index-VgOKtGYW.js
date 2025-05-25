@@ -1305,7 +1305,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     class A1,A2,A3 algorithm;
     class W1,W2,W3 wrapper;
     class WS workspace;`,config:{theme:"dark"}})}),Te.jsx("div",{className:"bg-zinc-900 rounded-lg p-4 text-left overflow-x-auto mb-4",children:Te.jsx("pre",{className:"text-xs text-zinc-200 whitespace-pre-wrap",children:Te.jsx("code",{children:`
---- Mermaid Diagram ---
 graph TD;
     A1[Algorithm 1] -->|Submodule| W1[Wrapper 1]
     A2[Algorithm 2] -->|Submodule| W2[Wrapper 2]
